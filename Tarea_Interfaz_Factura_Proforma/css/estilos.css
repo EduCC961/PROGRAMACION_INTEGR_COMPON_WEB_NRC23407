@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+.contenedor-factura{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: auto;
+}
+/* Tablas de datos */
+.tabla-datos {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.tabla-datos th {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+.tabla-datos td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ddd;
+}
+/* Tabla de productos */
+.tabla-productos {
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: collapse;
+}
+.tabla-productos th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+.tabla-productos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+/* Información adicional */
+.informacion-adicional {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.forma-pago, .observaciones {
+    width: 48%;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.informacion-adicional h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+/* Pie de página */
+.pie-pagina {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #e74c3c;
+    color: #7f8c8d;
+}
